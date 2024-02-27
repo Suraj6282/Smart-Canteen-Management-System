@@ -1,0 +1,9 @@
+/* Custom CSS */
+.slick-dots li button {
+    color: yellow; /* Change the color of the dots */
+  }
+  
+  .slick-dots li.slick-active button {
+    color: green; /* Change the color of the active dot */
+  }
+  

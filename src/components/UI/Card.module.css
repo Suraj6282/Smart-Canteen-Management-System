@@ -1,0 +1,36 @@
+.cardShadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border: none;
+  border-radius: 30px;
+}
+
+.cardGFTitle {
+  font-family: "Kode Mono", monospace;
+  font-size: 42px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cardHeader {
+  position: "sticky";
+  z-index: 100;
+}
+
+.cardContent {
+  z-index: 10;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* #cardTitleAnimate {
+  animation: jumpingChef 1s ease-in forwards infinite 3s alternate;
+} */
+
+@keyframes jumpingChef {
+  0% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(-10%);
+  }
+}
